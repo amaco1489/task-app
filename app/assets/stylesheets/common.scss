@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+ header {
+   width: 100%;
+   padding: 10px;
+   color: white;
+   background-color: #c52f24;
+ } 
+ 
+ footer {
+   width: 100%;
+   padding: 10px;
+   color: white;
+   background-color: #c52f24;
+ }
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: solid 1px black;
+}
+
+ table th {
+   background-color: #ffdfdf;
+   padding: 10px 20px;
+ }
+ 
+ table td {
+   background-color: #f1c8c861;
+   padding: 10px 20px;
+ }
+ 
+ .notice {
+   background-color: green;
+   padding: 5px;
+ }
