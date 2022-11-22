@@ -36,3 +36,7 @@
 </table>
 
 <p><%= link_to"スケジュール新規登録" ,:new_schedule %></p>
+
+<% content_for :schedule_counts do %>
+  スケジュールの合計：<%= Schedule.count %>
+<% end %>

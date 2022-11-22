@@ -3,7 +3,6 @@ class SchedulesController < ApplicationController
   def index
     @schedules = Schedule.all
     @schedules = Schedule.all.order(start_day: "ASC")
-    render layout: "schedule_counts_footer"
   end
   
   def new
