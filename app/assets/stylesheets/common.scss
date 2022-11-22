@@ -1,6 +1,9 @@
+div {
+  display: block;
+}
+
 body {
   margin: 0;
-  position: relative;
 }
 
  header {
@@ -9,6 +12,10 @@ body {
    color: white;
    background-color: #c52f24;
  } 
+ 
+ .schedule-container {
+   margin: 50px 30px;
+ }
  
  footer {
    width: 100%;
@@ -20,10 +27,12 @@ body {
 table {
   border-collapse: collapse;
   margin-bottom: 20px;
+  font-size: 15px;
 }
 
 table th, table td {
   border: solid 1px black;
+  text-align: center;
 }
 
  table th {
@@ -37,6 +46,17 @@ table th, table td {
  }
  
  .notice {
-   background-color: green;
-   padding: 5px;
+   background-color: #98ecaa7a;
+   padding: 10px 50px;
+   text-align: center;
+   border: 2px solid #5cd075;
+   width: fit-content;
+ }
+ 
+ .alert {
+   background-color: #ec98ac8f;
+   padding: 10px 50px;
+   text-align: center;
+   border: 2px solid #ec7592;
+   width: fit-content;
  }
