@@ -6,23 +6,23 @@ body {
   margin: 0;
 }
 
- header {
-   width: 100%;
-   padding: 10px;
-   color: white;
-   background-color: #c52f24;
- } 
+header {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #c52f24;
+} 
  
- .schedule-container {
-   margin: 50px 30px;
- }
+.schedule-container {
+  margin: 50px 30px;
+}
  
- footer {
-   width: 100%;
-   padding: 10px;
-   color: white;
-   background-color: #c52f24;
- }
+footer {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #c52f24;
+}
 
 table {
   border-collapse: collapse;
@@ -35,28 +35,52 @@ table th, table td {
   text-align: center;
 }
 
- table th {
-   background-color: #ffdfdf;
-   padding: 10px 20px;
- }
+table th {
+  background-color: #ffdfdf;
+  padding: 10px 20px;
+}
  
- table td {
-   background-color: #f1c8c861;
-   padding: 10px 20px;
- }
+table td {
+  background-color: #f1c8c861;
+  padding: 10px 20px;
+}
  
- .notice {
-   background-color: #98ecaa7a;
-   padding: 10px 50px;
-   text-align: center;
-   border: 2px solid #5cd075;
-   width: fit-content;
- }
+.notice {
+  background-color: #98ecaa7a;
+  padding: 10px 50px;
+  text-align: center;
+  border: 2px solid #5cd075;
+  width: fit-content;
+}
  
- .alert {
-   background-color: #ec98ac8f;
-   padding: 10px 50px;
-   text-align: center;
-   border: 2px solid #ec7592;
-   width: fit-content;
- }
+.alert {
+  background-color: #ec98ac8f;
+  padding: 10px 50px;
+  text-align: center;
+  border: 2px solid #ec7592;
+  width: fit-content;
+}
+ 
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+}
+ 
+input[type="date"] {
+  width: 300px;
+  height: 30px;
+}
+ 
+textarea {
+  width: 300px;
+  height: 200px;
+}
+
+input[type="submit"] {
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
